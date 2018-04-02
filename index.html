@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>JS login</title>
+	<script src="assets/js/UserManager.js"></script>
+	<script src="assets/js/User.js"></script>
+</head>
+
+<body>
+	<div id="login-form">
+		<form onsubmit="UserManager.loginByForm('login-username','login-password')">
+			<input type="text" placeholder="Username" id="login-username">
+			<input type="password" placeholder="Password" id="login-password">
+			<button type="submit">Login</button>
+		</form>
+	</div>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
