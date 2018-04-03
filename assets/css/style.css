@@ -3,6 +3,10 @@ background-color: white;
 font-family: 'Lato', sans-serif;
 }
 
+button {
+  font-family: 'Lato', sans-serif;
+}
+
 .login {
   display: flex;
   flex-direction: row-reverse;
