@@ -36,6 +36,7 @@ font-family: 'Lato', sans-serif;
 
 .nav a:hover {
   color: #81A6BF;
+  text-decoration: underline;
 }
 
 .username {
