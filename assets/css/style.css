@@ -7,3 +7,29 @@ font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: row-reverse;
 }
+
+.nav
+{
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  display: flex;
+  padding: 0;
+}
+
+
+.nav li {
+  text-align: center;
+  list-style: none;
+}
+
+.nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
