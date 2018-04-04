@@ -4,7 +4,7 @@ font-family: 'Lato', sans-serif;
 margin: 0;
 }
 
-button {
+button, input {
   font-family: 'Lato', sans-serif;
 }
 
@@ -12,6 +12,21 @@ header {
   display: flex;
   justify-content: center;
 }
+
+/*User_icon picture*/
+
+.user_icon {
+  width: 24px;
+  height: 24px;
+
+}
+
+.user_icon {
+display: flex;
+align-items: flex-start;
+}
+
+/*User_icon picture*/
 
 .login {
   display: flex;
