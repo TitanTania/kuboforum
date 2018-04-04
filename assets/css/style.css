@@ -15,14 +15,9 @@ header {
 
 /*User_icon picture*/
 
-<<<<<<< HEAD
-.user_icon img {
-
-=======
 form {
   display: flex;
   padding: 10px;
->>>>>>> 8995cf21c495e4d7bfcf80a852d6a4f86b4c0fb2
 }
 .user_icon {
   width: 20px;
