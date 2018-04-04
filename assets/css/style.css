@@ -4,8 +4,12 @@ font-family: 'Lato', sans-serif;
 margin: 0;
 }
 
-button, input {
+input {
   font-family: 'Lato', sans-serif;
+}
+
+button:hover {
+  color: #81A6BF;
 }
 
 header {
