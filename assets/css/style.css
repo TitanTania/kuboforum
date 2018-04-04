@@ -13,6 +13,21 @@ header {
   justify-content: center;
 }
 
+/*User_icon picture*/
+
+.user_icon img {
+  width: 24px;
+  height: 24px;
+
+}
+
+.user_icon {
+display: flex;
+align-items: flex-start;
+}
+
+/*User_icon picture*/
+
 .login {
   display: flex;
   flex-direction: row-reverse;
