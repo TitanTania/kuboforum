@@ -31,7 +31,10 @@ form {
 }
 
 
-
+.kedu_logo img {
+  width: 110px;
+  margin-top: -6px;
+}
 
 .login {
   display: flex;
