@@ -23,12 +23,18 @@ h3 {
   padding: 20px;
 }
 
+.flex_container_contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_container_contents > div {
+}
+
 .flex_container_lessons {
   display: flex;
   flex-direction: column;
 }
 
 .flex_container_lessons > div {
-  margin: 10px;
-  padding: 20px;
 }
