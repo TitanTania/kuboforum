@@ -15,14 +15,24 @@ header {
 
 /*User_icon picture*/
 
+<<<<<<< HEAD
 .user_icon img {
 
+=======
+form {
+  display: flex;
+  padding: 10px;
+>>>>>>> 8995cf21c495e4d7bfcf80a852d6a4f86b4c0fb2
+}
+.user_icon {
+  width: 20px;
+  height: 20px;
 }
 
-.user_icon {
+/*.user_icon {
 display: flex;
 align-items: flex-start;
-}
+}*/
 
 /*User_icon picture*/
 
