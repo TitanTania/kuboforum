@@ -4,12 +4,10 @@
   margin-right: 150px;
 }
 
-
 header
 {
   display: flex;
   align-items: center;
-  height: 70px;
 }
 
 .login {
