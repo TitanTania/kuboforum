@@ -127,10 +127,15 @@ ul.breadcrumbs li+li:before {
   color: white;
 }
 
-ul.breadcrumbs li a {
+.breadcrumbs a {
   color: white;
   text-decoration: none;
 }
+
+a.active_bread {
+  text-decoration: underline;
+}
+
 
 
 /*flex container starts*/
