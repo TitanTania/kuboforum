@@ -1,18 +1,4 @@
-.kedu_logo img {
-  width: 110px;
-  margin-top: -6px;
-  margin-right: 150px;
-}
 
-header
-{
-  display: flex;
-  align-items: center;
-}
-
-.login {
-  margin-left: 150px;
-}
 
 .menu {
   width: 100%;
@@ -30,13 +16,19 @@ h3 {
 }
 
 ul.breadcrumbs {
-  display: inline;
+  display: flex;
+  flex-direction: row;
   font-size: 12px;
+  list-style: none;
 }
 
 ul.breadcrumbs li+li:before {
   padding: 8px;
   content: "/\00a0";
+}
+
+ul.breadcrumbs li a {
+  color: #216393;
 }
 
 /*flex container starts*/
