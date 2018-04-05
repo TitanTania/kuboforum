@@ -17,6 +17,10 @@ header {
   justify-content: center;
 }
 
+a.active {
+  color: #81A6BF;
+}
+
 /*User_icon picture*/
 
 
@@ -72,10 +76,6 @@ header
 .nav a:hover {
   color: #81A6BF;
   text-decoration: underline;
-}
-
-a.active {
-  color: #81A6BF;
 }
 
 .username {
