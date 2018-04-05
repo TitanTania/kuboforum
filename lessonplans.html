@@ -21,27 +21,27 @@
 		</form>
 	</div>
 
-<header>
-	<nav class="nav">
-		<ul>
-			<li>
-				<a href="index.html">FORUM</a>
-			</li>
+				<li>
+					<a href="lessonplans.html" class="active">LESSON PLANS</a>
+				</li>
 
-			<li>
-				<a href="lessonplans.html">LESSON PLANS</a>
-			</li>
+				<li>
+					<a href="news.html">NEWS</a>
+				</li>
 
-			<li>
-				<a href="#News">NEWS</a>
-			</li>
-
-			<li>
-				<a href="#Help">HELP</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+				<li>
+					<a href="help.html">HELP</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="login" id="login-form">
+			<form onsubmit="UserManager.loginByForm('login-username','login-password')"><!--js-->
+				<input type="text" placeholder="Username" id="login-username">
+				<input type="password" placeholder="Password" id="login-password">
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</header>
 
 <div class="menu">
 <h2>Lesson plans</h2>

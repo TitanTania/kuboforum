@@ -74,6 +74,10 @@ header
   text-decoration: underline;
 }
 
+a.active {
+  color: #81A6BF;
+}
+
 .username {
   padding-right: 10px;
   color: #044c7f;
