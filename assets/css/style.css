@@ -34,17 +34,18 @@ form {
 .kedu_logo img {
   width: 110px;
   margin-top: -6px;
+  margin-right: 150px;
+}
+
+
+header
+{
+  display: flex;
+  align-items: center;
 }
 
 .login {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.nav
-{
-  display: flex;
-  justify-content: center;
+  margin-left: 150px;
 }
 
 .nav ul {
