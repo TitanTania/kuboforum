@@ -30,13 +30,19 @@ h3 {
 }
 
 ul.breadcrumbs {
-  display: inline;
+  display: flex;
+  flex-direction: row;
   font-size: 12px;
+  list-style: none;
 }
 
 ul.breadcrumbs li+li:before {
   padding: 8px;
   content: "/\00a0";
+}
+
+ul.breadcrumbs li a {
+  color: #216393;
 }
 
 /*flex container starts*/
