@@ -107,6 +107,11 @@ h2 {
 
 h3 {
   color: #216393;
+  text-decoration: none;
+}
+
+.contents a {
+  text-decoration: none;
 }
 
 ul.breadcrumbs {
@@ -117,13 +122,16 @@ ul.breadcrumbs {
 }
 
 ul.breadcrumbs li+li:before {
-  padding: 8px;
+  padding: 10px;
   content: "/\00a0";
+  color: white;
 }
 
 ul.breadcrumbs li a {
-  color: #216393;
+  color: white;
+  text-decoration: none;
 }
+
 
 /*flex container starts*/
 
