@@ -200,13 +200,21 @@ a.active_bread {
 .dropout-content {
   position: absolute;
   display: none;
+  left: 100%;
+  top: 0%;
+}
+
+li .dropout-content {
+  position: absolute;
 }
 
 .dropout-content li {
   border-bottom: 1px solid white;
 }
 
-.dropout:hover > .dropout-content {
-  display: flex;
-  display: row;
+
+li:hover .dropout-content {
+  display: block;
+  padding: 0px;
+  width: 200px;
 }
