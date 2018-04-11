@@ -223,3 +223,13 @@ li:hover .dropout-content {
   margin: 0 600px 0 100px;
 
 }
+
+.question_container li {
+  height: 0;
+  overflow: hidden;
+}
+
+.question_shown {
+  height: auto;
+  overflow: visible !important;
+}
