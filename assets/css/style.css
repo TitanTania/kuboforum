@@ -169,8 +169,7 @@ a.active_bread {
 
 /* Style the tab*/
 .categoriestab {
-  display: flex;
-  flex-direction: row;
+float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 30%;
@@ -201,6 +200,16 @@ a.active_bread {
 /* Active content for tab*/
 .categoriestab button.active {
   background-color: #ccc;
+}
+
+/* Style for tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
 }
 
 
