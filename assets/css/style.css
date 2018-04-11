@@ -167,3 +167,23 @@ a.active_bread {
 .flex_container_lessons > div {
 }
 /*flex container ends*/
+
+
+/*lessonplan*/
+
+.categories-lesson {
+  width: 200px;
+}
+
+.categories-lesson a {
+  background-color: #216393;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.categories-lesson a:hover {
+  background-color: #044c7f;
+}
