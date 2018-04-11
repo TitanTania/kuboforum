@@ -7,4 +7,4 @@ function User(firstname, lastname, username, email, password, school){
 	this.password = password;
 	this.school = school;
 }
-//this refererer til det object der bliver lavet 
+//this refererer til det object der bliver lavet//
