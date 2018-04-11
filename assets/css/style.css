@@ -184,6 +184,29 @@ a.active_bread {
   text-decoration: none;
 }
 
+.categories-lesson li {
+  list-style-type: none;
+  position: relative;
+}
+
 .categories-lesson a:hover {
   background-color: #044c7f;
+}
+
+.dropout {
+  position: relative;
+}
+
+.dropout-content {
+  position: absolute;
+  display: none;
+}
+
+.dropout-content li {
+  border-bottom: 1px solid white;
+}
+
+.dropout:hover > .dropout-content {
+  display: flex;
+  display: row;
 }
