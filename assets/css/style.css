@@ -294,17 +294,19 @@ li:hover .dropout-content {
   background-color: #F1F1F2;
   width: 100%;
   border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 
 .vote_button {
 height: 45px;
+display: flex;
+flex-direction: column;
 }
 
 .vote_icon {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
 }
 
 /*forum end*/
