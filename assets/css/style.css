@@ -310,16 +310,28 @@ li:hover .dropout-content {
   padding: 0px;
 }
 
+h3.title {
+
+}
+
+p.tagline {
+
+}
+
+ul.tagline_buttons {
+display: flex;
+flex-direction: row;
+padding: 10px;
+list-style: none;
+}
+
 .vote_button {
 height: 45px;
 display: flex;
 flex-direction: column;
 }
 
-.small_text {
-  display: flex;
-  flex-direction: column;
-}
+
 /*forum end*/
 
 .container {
