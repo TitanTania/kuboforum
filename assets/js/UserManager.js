@@ -8,12 +8,12 @@ UserManager = {
 	},
 
 	login:
-	function (username, password){ //argumenter (username, password)
+	function (email, password){ //argumenter (username, password)
 		var user;
 		for (var i = 0; i < this.users.length; i++) { //for = loop - .lenght tæller elementer i array - fortæller hvor mange elementer der er
 
 			user = this.users[i];
-			if(user.username == username && user.password == password){
+			if(user.email == email && user.password == password){
 				localStorage.setItem("user", JSON.stringify(user)); //object om til string gemt i localStorage
 				return user; //når noget bliver returnet så dør funktionen
 			}
@@ -41,15 +41,15 @@ UserManager = {
 	},
 
 	loginByForm:
-	function (usernameId, passwordId){ //fysiske id'er fra html
+	function (emailId, passwordId){ //fysiske id'er fra html
 		event.preventDefault();
-		var username = document.getElementById(usernameId);
+		var email = document.getElementById(emailId);
 		var password = document.getElementById(passwordId);
-		if(this.login(username.value, password.value)){ //if kører kun hvis den er true
+		if(this.login(email.value, password.value)){ //if kører kun hvis den er true
 			location.reload(); //hvis login er succesful så reloader siden
 		}
 		else{
-			username.style.borderColor = "#f00";
+			email.style.borderColor = "#f00";
 			password.style.borderColor = "#f00";
 		}
 
