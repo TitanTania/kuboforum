@@ -1,7 +1,7 @@
 
 
 
-UserManager.addUser(new User("Karen","Pedersen","Karen","karenpedersen@jubii.dk","karen123","Dalumskolen"));
+UserManager.addUser(new User("Karen","Pedersen","karen","karenpedersen@jubii.dk","karen123","Dalumskolen"));
 
 
 
