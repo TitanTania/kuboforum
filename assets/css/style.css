@@ -4,6 +4,10 @@ font-family: 'Lato', sans-serif;
 margin: 0;
 }
 
+h1 {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
 input {
   font-family: 'Lato', sans-serif;
 }
@@ -209,7 +213,7 @@ li .dropout-content {
 }
 
 .dropout-content li {
-  border-bottom: 1px solid white;
+  border-bottom: 0.5px solid white;
 }
 
 
