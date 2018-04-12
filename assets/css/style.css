@@ -222,3 +222,20 @@ li:hover .dropout-content {
   padding: 0px;
   width: 200px;
 }
+
+/*lessonplan end*/
+
+.news {
+  margin: 0 600px 0 100px;
+
+}
+
+.question_container li {
+  height: 0;
+  overflow: hidden;
+}
+
+.question_shown {
+  height: auto;
+  overflow: visible !important;
+}
