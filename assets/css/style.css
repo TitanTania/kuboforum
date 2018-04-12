@@ -297,7 +297,7 @@ li:hover .dropout-content {
   border: 1px solid white;
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 0px;
 }
 
 .vote_button {
