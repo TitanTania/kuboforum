@@ -242,15 +242,14 @@ li:hover .dropout-content {
 .menubar {
   display: flex;
   flex-direction: row-reverse;
-
-
+  
 }
 
 .menubar ul {
   list-style-type: none;
   margin:0;
   padding: 0;
-  width: 200px;
+  width: 400px;
   height: 200px;
   background-color: #f1f1f1;
 
@@ -261,7 +260,12 @@ li:hover .dropout-content {
   text-decoration: none;
   color: #000;
   padding: 8px 16px;
+  text-align: center;
+  border-top: 1px solid #555;
+}
 
+.menubar li {
+  text-align: center;
 }
 
 .menubar li a:hover {
