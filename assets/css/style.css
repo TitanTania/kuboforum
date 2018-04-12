@@ -235,3 +235,28 @@ li:hover .dropout-content {
   height: auto;
   overflow: visible !important;
 }
+
+/*forum start*/
+
+.forum_container {
+
+}
+
+.forum_post {
+  background-color: #F1F1F2;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.vote_button {
+height: 45px;
+}
+
+.vote_icon {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*forum end*/
