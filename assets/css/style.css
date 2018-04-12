@@ -234,7 +234,11 @@ li:hover .dropout-content {
   flex-direction: column;
   max-width: 700px;
   margin: 0 0 0 100px;
+}
 
+.news p {
+  line-height: normal;
+  margin: 7px;
 }
 
 
