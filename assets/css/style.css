@@ -302,6 +302,7 @@ li:hover .dropout-content {
   background-color: #F1F1F2;
   width: 100%;
   border: 1px solid white;
+
 }
 
 .forum_title {
@@ -321,7 +322,7 @@ p.tagline {
 ul.tagline_buttons {
 display: flex;
 flex-direction: row;
-padding: 10px;
+padding: 50px;
 list-style: none;
 }
 
