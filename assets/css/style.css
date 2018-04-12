@@ -98,6 +98,7 @@ a.active {
   height: 55px;
   background-color: #044C7F;
   display: flex;
+  
 }
 
 .menu h2 {
@@ -242,6 +243,7 @@ li:hover .dropout-content {
 .menubar {
   display: flex;
   flex-direction: row-reverse;
+
 
 
 }
