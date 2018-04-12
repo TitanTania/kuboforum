@@ -234,8 +234,14 @@ li:hover .dropout-content {
   flex-direction: column;
   max-width: 700px;
   margin: 0 0 0 100px;
-
 }
+
+.news p {
+  line-height: normal;
+  margin: 7px;
+}
+
+
 
 
 .menubar {
@@ -327,3 +333,11 @@ flex-direction: column;
 
 
 /*forum end*/
+
+.container {
+  display: flex;
+  width: auto;
+  background-color: #f1f1f2;
+  padding: 0 0 0 100px;
+  color: #545454;
+}
