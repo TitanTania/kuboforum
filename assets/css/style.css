@@ -272,6 +272,10 @@ li:hover .dropout-content {
   border-top: 1px solid #555;
 }
 
+.menubar h3 a {
+  color: #044C7F;
+}
+
 .menubar li {
   text-align: center;
 }
