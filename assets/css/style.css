@@ -252,13 +252,8 @@ li:hover .dropout-content {
   margin:0;
   padding: 0;
   width: 400px;
-<<<<<<< HEAD
-  height: 200px;
-  background-color: #f1f1f2;
-=======
   height: inherit;
   background-color: #f1f1f1;
->>>>>>> 07f6397a939367e2eb6f5f4254be1e05857853f9
 
 }
 
@@ -320,3 +315,11 @@ flex-direction: column;
   flex-direction: column;
 }
 /*forum end*/
+
+.container {
+  display: flex;
+  width: auto;
+  background-color: #f1f1f2;
+  padding: 0 0 0 100px;
+  color: #545454;
+}
