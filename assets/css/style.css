@@ -94,10 +94,12 @@ a.active {
 
 
 .menu {
-  width: 100%;
+  width: auto;
   height: 55px;
   background-color: #044C7F;
   display: flex;
+  padding: 0 0 0 93px;
+
 
 }
 
