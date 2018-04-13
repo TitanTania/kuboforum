@@ -498,20 +498,27 @@ border: 10px;
   }
 }
 
+.lessonsoverviews {
+  display: flex;
+  flex-direction: row;
+}
+
 .lessonbox1 {
-  position: relative;
   text-align: center;
 }
-  .lessonbox1 img {
-    width: 300px;
-    height: auto;
-    margin: 40px;
-  }
 
-
+.lessonbox1 img {
+  position: absolute;
+  margin: 40px;
+  width: 300px;
+  height: auto;
+  z-index: 1;
+}
 
 .text1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  padding-left: 100px;
+  position: relative;
+  margin: 100px 45px;
+  width: 250px;
+  z-index: 2;
 }
