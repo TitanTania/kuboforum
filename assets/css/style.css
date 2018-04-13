@@ -94,10 +94,12 @@ a.active {
 
 
 .menu {
-  width: 100%;
+  width: auto;
   height: 55px;
   background-color: #044C7F;
   display: flex;
+  padding: 0 0 0 93px;
+
 
 }
 
@@ -347,22 +349,25 @@ margin: 0;
 padding: 0;
 }
 
-ul.sort_buttons {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-
 li.comments {
   padding-right: 10px;
+  color: #216393;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 li.share {
   padding-right: 10px;
+  color: #216393;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 li.report {
   padding-right: 10px;
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .tagline_buttons {
@@ -372,6 +377,66 @@ li.report {
 
 .tagline {
   margin: 0;
+}
+
+.sort {
+  display: flex;
+  flex-direction: row;
+}
+
+.hot {
+  background-color: #216393;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid;
+}
+
+.hot:hover {
+  background-color: #044C7F;
+}
+
+.new {
+  background-color: #216393;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid;
+}
+
+.new:hover {
+  background-color: #044C7F;
+}
+
+.rising {
+  background-color: #216393;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-weight: bold;
+  border-right: 1px solid;
+}
+
+.rising:hover {
+  background-color: #044C7F;
+}
+
+.top {
+  background-color: #216393;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.top:hover {
+  background-color: #044C7F;
 }
 
 .vote_button {
