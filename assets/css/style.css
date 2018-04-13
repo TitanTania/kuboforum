@@ -308,7 +308,15 @@ li:hover .dropout-content {
   border: 1px solid white;
   display: flex;
   flex-direction: row;
+}
 
+h3.title {
+
+}
+
+.forum_icon {
+  padding-top: 25px;
+  padding-right: 10px;
 }
 
 ul.tagline_buttons {
@@ -317,10 +325,20 @@ display: flex;
 flex-direction: row;
 }
 
+.tagline_buttons {
+  margin: 0;
+  padding-right: 50px;
+}
+
+.tagline {
+  margin: 0;
+}
+
 .vote_button {
 height: 45px;
 display: flex;
 flex-direction: column;
+margin: 10px;
 }
 
 .post_content {
