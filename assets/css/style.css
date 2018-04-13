@@ -492,7 +492,8 @@ border: 10px;
 .lessonsoverviews {
   display: flex;
   flex-direction: row;
-  margin-left: 150px;
+  justify-content: center;
+  align-content: center;
 }
 
 .lessonbox {
@@ -500,7 +501,8 @@ border: 10px;
 }
 
 .lessonbox {
-  position: relative;
+  display: flex;
+  flex-direction: row;
   margin: 40px;
   width: 300px;
   height: auto;
