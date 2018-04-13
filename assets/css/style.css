@@ -506,13 +506,18 @@ border: 10px;
   z-index: 1;
 }
 
+.lessonbox1 img {
+  width: 300px;
+  height: auto;
+}
+
 .text1 {
   position: absolute;
   top: 50%;
-  left: 95%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 400px;
+  width: 200px;
 }
 
 
