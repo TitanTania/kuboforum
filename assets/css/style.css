@@ -287,14 +287,28 @@ li:hover .dropout-content {
 }
 
 .question_container li {
-  height: 0;
-  overflow: hidden;
+  max-width: 1000px;
+  list-style-type: none;
 }
 
-.question_shown {
-  height: auto;
-  overflow: visible !important;
+.question_container {
+  margin: 0 0 0 60px;
 }
+
+.your_question button {
+  max-width: 300px;
+}
+
+.your_question a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.your_question {
+  text-align: center;
+}
+
 
 /*forum start*/
 
