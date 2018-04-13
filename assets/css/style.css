@@ -488,15 +488,6 @@ border: 10px;
   background-color: #044c7f;
 }
 
-/*Responsive*/
-@media screen and (max-width: 600px) {
-  .nav a {
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-}
 
 .lessonsoverviews {
   display: flex;
@@ -507,8 +498,8 @@ border: 10px;
   text-align: center;
 }
 
-.lessonbox1 img {
-  position: absolute;
+.lessonbox1 {
+  position: relative;
   margin: 40px;
   width: 300px;
   height: auto;
@@ -516,9 +507,21 @@ border: 10px;
 }
 
 .text1 {
-  padding-left: 100px;
-  position: relative;
-  margin: 100px 45px;
-  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
   z-index: 2;
+  width: 400px;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 600px) {
+  .nav a {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
 }
