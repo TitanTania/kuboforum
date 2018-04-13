@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>KEDU</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Lato" rel="stylesheet">
+	<script src="assets/js/UserManager.js"></script>
+	<script src="assets/js/User.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	</style>
+</head>
+
+
+
+<body>
+
+<header>
+	<div class="kedu_logo">
+
+		<a href="index.html">
+			<img src="assets/images/kedu_logo.png" alt="">
+		</a>
+
+	</div>
+	<nav class="nav">
+		<ul>
+			<li>
+				<a href="index.html" class="active">FORUM</a>
+			</li>
+
+			<li>
+				<a href="lessonplans.html">LESSON PLANS</a>
+			</li>
+
+			<li>
+				<a href="news.html">NEWS</a>
+			</li>
+
+			<li>
+				<a href="help.html">HELP</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="login" id="login-form">
+		<form onsubmit="UserManager.loginByForm('login-username','login-password')"><!--js-->
+			<input type="text" placeholder="Username" id="login-username">
+			<input type="password" placeholder="Password" id="login-password">
+			<button type="submit">Login</button>
+		</form>
+	</div>
+</header>
+
+
+    <div class="menu">
+      <h2>Forum</h2>
+    </div>
+
+<div class="container">
+  <h1>Create your own post</h1>
+</div>
+    <input type="text" id="input">
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
