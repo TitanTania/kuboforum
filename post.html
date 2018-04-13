@@ -43,7 +43,7 @@
 		</ul>
 	</nav>
 	<div class="login" id="login-form">
-		<form onsubmit="UserManager.loginByForm('login-username','login-password')"><!--js-->
+		<form onsubmit="UserManager.loginByForm('login-username','login-password')">
 			<input type="text" placeholder="Username" id="login-username">
 			<input type="password" placeholder="Password" id="login-password">
 			<button type="submit">Login</button>
@@ -59,9 +59,12 @@
 <div class="container">
   <h1>Create your own post</h1>
 </div>
-    <input type="text" id="input">
-    <input type="datetime-local">
-    <button>Post it</button>
+    <input type="text" id="thread">
+ <input type="submit" value="Post it" onclick="addThread();">
+   <input type="datetime-local">
+    <ul id="threads">
+
+    </ul>
 
     <script src="assets/js/main.js"></script>
   </body>
