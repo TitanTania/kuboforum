@@ -314,6 +314,7 @@ h3.title {
 
 }
 
+
 .forum_icon {
   padding-top: 25px;
   padding-right: 10px;
@@ -325,6 +326,18 @@ display: flex;
 flex-direction: row;
 margin: 0;
 padding: 0;
+}
+
+li.comments {
+  padding-right: 10px;
+}
+
+li.share {
+  padding-right: 10px;
+}
+
+li.report {
+  padding-right: 10px;
 }
 
 .tagline_buttons {
@@ -341,6 +354,20 @@ height: 45px;
 display: flex;
 flex-direction: column;
 margin: 10px;
+border: 10px;
+
+
+}
+
+.vote_button:hover {
+  background-color: #C8C8C8;
+  margin: 10px;
+  box-shadow: 0 0 0 10px #C8C8C8;
+}
+
+.vote_button:active {
+  background-color: #216393;
+  box-shadow: 0 0 0 10px #216393;
 }
 
 .post_content {
