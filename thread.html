@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>KEDU</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Lato" rel="stylesheet">
+	<script src="assets/js/UserManager.js"></script>
+	<script src="assets/js/User.js"></script>
+	<script src="assets/js/forum.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	</style>
+</head>
+
+
+
+<body>
+
+<header>
+	<div class="kedu_logo">
+
+		<a href="index.html">
+			<img src="assets/images/kedu_logo.png" alt="">
+		</a>
+
+	</div>
+	<nav class="nav">
+		<ul>
+			<li>
+				<a href="index.html" class="active">FORUM</a>
+			</li>
+
+			<li>
+				<a href="lessonplans.html">LESSON PLANS</a>
+			</li>
+
+			<li>
+				<a href="news.html">NEWS</a>
+			</li>
+
+			<li>
+				<a href="help.html">HELP</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="login" id="login-form">
+		<form onsubmit="UserManager.loginByForm('login-username','login-password')"><!--js-->
+			<input type="text" placeholder="Username" id="login-username">
+			<input type="password" placeholder="Password" id="login-password">
+			<button type="submit">Login</button>
+		</form>
+	</div>
+</header>
+
+<div class="menu">
+	<h2>Forum</h2>
+</div>
+
+<div class="forum_container">
+	<div class="forum_post">
+		<div>
+			<img src="assets/images/straight.png" class="vote_button" alt="upvote_icon">
+			<img src="assets/images/straight_down.png" class="vote_button" alt="downvote_icon">
+		</div>
+		<div>
+			<img src="assets/images/icon2.png" class="forum_icon" alt="user icon">
+
+		</div>
+			<div class="post_content">
+				<h3 class="title" id="threadName"></h3>
+					<p id="threadText"></p>
+					<p class="tagline" id="threadDate"></p>
+					<ul class="tagline_buttons">
+						<li class="comments">77 Comments</li>
+						<li class="share">Share</li>
+						<li class="report">Report</li>
+					</ul>
+			</div>
+	</div>
+
+	<p>
+		What do you want to comment? <input type="text" id="text"> <input type="submit" value="Post" onclick="addComment();">
+	</p>
+
+	<div id="thread_comments">
+
+	</div>
+</div>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+	// Tager nummeret bag "#" i linket. Dette er nummeret på den tråd vi er inde på.
+	// Vi tager "substringen" af hashen. Fordi vi ikke skal bruge "#" mærket.
+	var activeThreadId = window.location.hash.substring(1)
+	// Vi vælger den active tråd i variablen thread.
+	var thread = threads[activeThreadId];
+	// Sæt dato, navn og teksten ind fra den valgte tråd.
+	document.getElementById('threadName').innerHTML = thread.name;
+	document.getElementById('threadText').innerHTML = thread.text;
+	document.getElementById('threadDate').innerHTML = "Submitted " + new Date(thread.date).toLocaleDateString();
+
+	// Henter de kommentarer der er til den her tråd.
+	for (var i = 0; i < comments.length; i++) {
+		var comment = comments[i];
+		// Vi spørger efter threadId fra comment.
+		if (comment.threadId != activeThreadId) {
+			// Ok. Den her kommentar hører ikke til den her tråd. Vi "fortsætter loopet"
+			continue; // Stopper den her gang i loopet og starter med næste.
+		}
+
+		var commentHTML = "<p><b>" + comment.author + "</b> submitted " + new Date(thread.date).toLocaleDateString() + "</p><p>" + comment.text + "</p>";
+		document.getElementById('thread_comments').innerHTML += commentHTML;
+	}
+})
+
+</script>
+	<script src="assets/js/main.js"></script> <!--bliver først brugt her-->
+</body>
+
+</html>

@@ -9,31 +9,4 @@ function User(firstname, lastname, username, email, password, school){
 }
 //this refererer til det object der bliver lavet//
 
-
-function addThread() {
-var thread = document.getElementById("thread").value;
-threads.push(thread);
-localStorage.setItem("threads", JSON.stringify(categories));
-addThreadToList(thread);
-}
-
-function addThreadToList(threadName) {
-	var liElement = document.createElement("li");
-	liElement.innerHTML=threadName;
-	document.getElementById("thread").appendChild(liElement);
-}
-
-var threads = [];
-var loadedThreads = localStorage.getItem("threads");
-if (loadedThreads != null) {
-	threads = JSON.parse(loadedThreads);
-}
-
-document.addEventListener("DOMContentLoaded", function() {
-	for (var i = 0; i < threads.length; i++) {
-		var thread = threads[i];
-		addThreatToList(threads);
-	}
-
-	document.getElementById('id')
-})
+//En funktion forventer at få noget at arbejde med, altså det i (). Så den forventer at få navn og text. Den her bruger det, en anden function skal lave det.
