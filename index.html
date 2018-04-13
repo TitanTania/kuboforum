@@ -64,7 +64,7 @@
 
 <div class="forum_container">
 
-<div class="forum_post">
+<!--<div class="forum_post">
 	<div>
 		<img src="assets/images/straight.png" class="vote_button" alt="upvote_icon">
 		<img src="assets/images/straight_down.png" class="vote_button" alt="downvote_icon">
@@ -82,7 +82,47 @@
 					<li class="report">Report</li>
 				</ul>
 		</div>
+</div>-->
+
+<div class="forum_post">
+	<div>
+
+		<div class="vote_input">
+			<script>
+    var count = 1;
+    var countEl = document.getElementById("count");
+    function plus(){
+      count++;
+      countEl.value = count;
+    }
+    function minus(){
+      if (count > 1) {
+        count--;
+        countEl.value = count;
+      }
+    }
+		</script>
+			<input type="image" src="assets/images/straight.png" class="vote_button" alt="upvote_icon" value="+" id="plus" oneclick="plus()">
+				<input type="text" size="4" value="1" id="count">
+			<input type="image" src="assets/images/straight_down.png" class="vote_button" alt="downvote_icon" value="-" id="minus" oneclick="minus()">
+		</div>
+	</div>
+	<div>
+		<img src="assets/images/icon2.png" class="forum_icon" alt="user icon">
+
+	</div>
+		<div class="post_content">
+			<h3 class="title">Need help with KUBO TagTiles</h3>
+				<p class="tagline">Submitted 2 hours ago by Per Engkjær</p>
+				<ul class="tagline_buttons">
+					<li class="comments">14 Comments</li>
+					<li class="share">Share</li>
+					<li class="report">Report</li>
+				</ul>
+		</div>
 </div>
+
+
 
 <div class="forum_post">
 	<div>
