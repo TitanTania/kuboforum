@@ -495,11 +495,11 @@ border: 10px;
   margin-left: 150px;
 }
 
-.lessonbox1 {
+.lessonbox {
   text-align: center;
 }
 
-.lessonbox1 {
+.lessonbox {
   position: relative;
   margin: 40px;
   width: 300px;
@@ -507,12 +507,12 @@ border: 10px;
   z-index: 1;
 }
 
-.lessonbox1 img {
+.lessonbox img {
   width: 300px;
   height: auto;
 }
 
-.text1 {
+.lesson_text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -521,49 +521,7 @@ border: 10px;
   width: 200px;
 }
 
-.lessonbox2 {
-  position: relative;
-  margin: 40px;
-  width: 300px;
-  height: auto;
-  z-index: 1;
-}
 
-.lessonbox2 img {
-  width: 300px;
-  height: auto;
-}
-
-.text2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 200px;
-}
-
-.lessonbox3 {
-  position: relative;
-  margin: 40px;
-  width: 300px;
-  height: auto;
-  z-index: 1;
-}
-
-.lessonbox3 img {
-  width: 300px;
-  height: auto;
-}
-
-.text3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 200px;
-}
 
 /*Responsive*/
 @media screen and (max-width: 600px) {
