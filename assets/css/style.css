@@ -347,6 +347,12 @@ margin: 0;
 padding: 0;
 }
 
+ul.sort_buttons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
 li.comments {
   padding-right: 10px;
 }
@@ -374,8 +380,6 @@ display: flex;
 flex-direction: column;
 margin: 10px;
 border: 10px;
-
-
 }
 
 .vote_button:hover {
