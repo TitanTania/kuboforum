@@ -498,14 +498,17 @@ border: 10px;
 }
 
 .lessonbox {
+  display: flex;
+  justify-content: center;
   text-align: center;
+
 }
 
 .lessonbox {
   position: relative;
-  margin: 40px;
+  margin: 40px 0 0 130px;
   width: 300px;
-  height: auto;
+  height: 300px;
   z-index: 1;
 }
 
@@ -521,6 +524,10 @@ border: 10px;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 200px;
+}
+.lesson_text a {
+  text-decoration: none;
+  color: #216393;
 }
 
 
