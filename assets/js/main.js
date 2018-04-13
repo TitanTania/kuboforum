@@ -18,3 +18,9 @@ if(UserManager.checkLogin(user)){
 
 Kategorier.push(new Kategori("Hjælp"))
 /*push skubber en ny ting ind. Tilføjer det til slutningen af array?*/
+
+/*forum scripy starts*/
+
+function getLocal() {
+	var post = localStorage.getItem('postContent');
+}
