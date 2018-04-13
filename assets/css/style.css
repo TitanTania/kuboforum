@@ -297,6 +297,7 @@ li:hover .dropout-content {
 
 .your_question button {
   max-width: 300px;
+  margin: 0 0 20px 0;
 }
 
 .your_question a {
@@ -307,6 +308,10 @@ li:hover .dropout-content {
 
 .your_question {
   text-align: center;
+}
+
+.your_question h2 {
+  color: #044C7F;
 }
 
 
