@@ -211,7 +211,8 @@ a.active_bread {
   position: absolute;
   display: none;
   left: 100%;
-  top: 0%;
+  top: 0;
+  margin: 0;
 }
 
 li .dropout-content {
