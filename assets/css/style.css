@@ -28,9 +28,15 @@ header {
 
 form {
   display: flex;
+  align-items: center;
   padding-top: 10px;
   padding-right: 10px;
 }
+
+.login input {
+  margin-right: 10px;
+}
+
 .user_icon {
   width: 20px;
   height: 20px;
@@ -482,7 +488,8 @@ border: 10px;
   color: #545454;
 }
 
-.your_question button {
+.your_question button,
+.login button {
   background-color: #216393;
   color: white;
   padding: 10px 24px;
@@ -491,8 +498,14 @@ border: 10px;
   border: none;
 }
 
-.your_question button:hover {
+.your_question button:hover,
+ .login button:hover{
   background-color: #044c7f;
+}
+
+.login button {
+  padding: 10px 15px;
+  width: auto;
 }
 
 
