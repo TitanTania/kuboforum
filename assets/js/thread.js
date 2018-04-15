@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
 	// Tager nummeret bag "#" i linket. Dette er nummeret på den tråd vi er inde på.
 	// Vi tager "substringen" af hashen. Fordi vi ikke skal bruge "#" mærket.

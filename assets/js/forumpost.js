@@ -13,12 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 			</div>
 				<div class="post_content">
-					<h3 class="title"><a href="thread.html#"`+i+`">` + thread.name + `</a></h3>
+					<h3 class="title"><a href="thread.html#`+i+`">` + thread.name + `</a></h3>
 						<p class="tagline">Submitted `+ new Date(thread.date).toLocaleDateString() +`</p>
 						<ul class="tagline_buttons">
 							<li class="comments"></li>
 							<li class="share">Share</li>
-							<li class="report">Report</li>
 						</ul>
 				</div>
 		</div>`;
