@@ -494,7 +494,7 @@ border: 10px;
 }
 
 .your_question button,
-.login button, .postbutton button {
+.login button, .postbutton button, .addcommentbutton {
   background-color: #216393;
   color: white;
   padding: 10px 24px;
@@ -504,11 +504,11 @@ border: 10px;
 }
 
 .your_question button:hover,
- .login button:hover, .postbutton button:hover{
+ .login button:hover, .postbutton button:hover, .addcommentbutton:hover{
   background-color: #044c7f;
 }
 
-.login button, .postbutton button {
+.login button, .postbutton button, .addcommentbutton {
   padding: 10px 15px;
   width: auto;
 }
@@ -614,6 +614,11 @@ border: 10px;
   width: 200px;
 }
 
+<<<<<<< HEAD
+#thread_comments {
+  padding: 0 0 0 100px;
+=======
 .materials {
   height: 100px;
+>>>>>>> 6473e4b0b9a7c84c4e67042dc9f4227f55bd40c0
 }
