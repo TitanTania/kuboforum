@@ -508,6 +508,10 @@ border: 10px;
   width: auto;
 }
 
+.postbutton button {
+  margin-top: 5px;
+  padding: 2px;
+}
 
 .lessonsoverviews {
   display: flex;
