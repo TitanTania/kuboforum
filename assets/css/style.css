@@ -160,12 +160,13 @@ a.active_bread {
 .flex_container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
 }
 
 .flex_container > div {
   margin: 10px;
   padding: 20px;
+  justify-content: center;
 }
 
 .flex_container_contents {
@@ -180,9 +181,12 @@ a.active_bread {
 .flex_container_lessons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
 }
 
 .flex_container_lessons > div {
+  justify-content: center;
 }
 /*flex container ends*/
 
@@ -537,6 +541,12 @@ border: 10px;
 
 .materials {
   height: 100px;
+}
+
+.lesson_content {
+  max-width: 800px;
+  justify-content: center;
+  margin-left: 300px;
 }
 
 .lessonbox {
