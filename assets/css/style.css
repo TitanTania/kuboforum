@@ -489,7 +489,7 @@ border: 10px;
 }
 
 .your_question button,
-.login button {
+.login button, .postbutton button {
   background-color: #216393;
   color: white;
   padding: 10px 24px;
@@ -503,7 +503,7 @@ border: 10px;
   background-color: #044c7f;
 }
 
-.login button {
+.login button, .postbutton button {
   padding: 10px 15px;
   width: auto;
 }
@@ -559,7 +559,7 @@ border: 10px;
   }
 }
 
-.postbutton button {
+/*.postbutton button {
   display: flex;
   flex-direction: column;
   background-color: #216393;
@@ -570,12 +570,13 @@ border: 10px;
   width: 9%;
   border: none;
 
-}
+}*/
 
-.postbutton h2 a {
+/*.postbutton h2 a {
   text-decoration: none;
   text-align: center;
   padding: 0px;
+<<<<<<< HEAD
 }
 
 .addbutton {
@@ -592,3 +593,6 @@ border: 10px;
   align-items: center;
 
 }
+=======
+}*/
+>>>>>>> afa9a772bc96392f6f51a74cd2bf205d17c47f27
