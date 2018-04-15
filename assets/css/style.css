@@ -127,6 +127,10 @@ h3 {
   text-decoration: none;
 }
 
+.contents {
+
+}
+
 ul.breadcrumbs {
   display: flex;
   flex-direction: row;
@@ -167,6 +171,7 @@ a.active_bread {
 .flex_container_contents {
   display: flex;
   flex-direction: row;
+
 }
 
 .flex_container_contents > div {
