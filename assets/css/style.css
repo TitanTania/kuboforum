@@ -499,7 +499,7 @@ border: 10px;
 }
 
 .your_question button:hover,
- .login button:hover{
+ .login button:hover, .postbutton button:hover{
   background-color: #044c7f;
 }
 
@@ -557,4 +557,23 @@ border: 10px;
     margin: 0;
     padding: 14px;
   }
+}
+
+.postbutton button {
+  display: flex;
+  flex-direction: column;
+  background-color: #216393;
+  color: white;
+  padding: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 9%;
+  border: none;
+
+}
+
+.postbutton h2 a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0px;
 }
