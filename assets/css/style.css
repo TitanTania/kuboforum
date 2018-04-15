@@ -513,9 +513,14 @@ border: 10px;
   width: auto;
 }
 
-.postbutton button {
+.postbutton button  {
   margin-top: 5px;
   padding: 2px;
+}
+
+.postbutton button a, .menu a {
+  text-decoration:none;
+
 }
 
 .lessonsoverviews {
