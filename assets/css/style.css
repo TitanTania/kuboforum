@@ -547,6 +547,10 @@ border: 10px;
   color: #216393;
 }
 
+.lesson-icons {
+  height: 45px;
+  display: inline-block;
+}
 
 
 /*Responsive*/
