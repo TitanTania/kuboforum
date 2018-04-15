@@ -621,3 +621,8 @@ border: 10px;
 
 .materials {
   height: 100px;
+}
+
+#threadText p {
+  width: 900px;
+}
