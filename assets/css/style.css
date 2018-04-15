@@ -79,7 +79,6 @@ header
   text-decoration: none;
   color:  #044C7F;
   padding: 20px;
-
 }
 
 .nav a:hover {
@@ -566,6 +565,18 @@ border: 10px;
   display: inline-block;
 }
 
+
+/*Responsive*/
+@media screen and (max-width: 600px) {
+  .nav a {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+
 .addbutton {
   display: flex;
   flex-direction: column;
@@ -608,15 +619,16 @@ border: 10px;
 }
 
 
-<<<<<<< HEAD
-/*Responsive*/
-@media screen and (max-width: 600px) {
-=======
 #thread_comments {
-  padding: 0 0 0 100px;
+  padding: 0 0 0 125px;
 }
 
+<<<<<<< HEAD
+.materials {
+  height: 100px;
+=======
 
 #threadText p {
   width: 900px;
+>>>>>>> e518ebf7931e3e6215e88e19343c7f6262efa4a3
 }
