@@ -79,7 +79,6 @@ header
   text-decoration: none;
   color:  #044C7F;
   padding: 20px;
-
 }
 
 .nav a:hover {
@@ -562,6 +561,18 @@ border: 10px;
   display: inline-block;
 }
 
+
+/*Responsive*/
+@media screen and (max-width: 600px) {
+  .nav a {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+
 .addbutton {
   display: flex;
   flex-direction: column;
@@ -604,22 +615,10 @@ border: 10px;
 }
 
 
-<<<<<<< HEAD
-/*Responsive*/
-@media screen and (max-width: 600px) {
-=======
 #thread_comments {
   padding: 0 0 0 100px;
 }
 
 .materials {
   height: 100px;
-<<<<<<< HEAD
 }
-
-#threadText p {
-  width: 900px;
-}
-=======
->>>>>>> 6fe96bb4e9d2b46072206ae441b70b0d4d0ebe86
->>>>>>> 37eddded87b3df3a4a9c1ef85dee86322e55e374
