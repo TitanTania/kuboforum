@@ -517,9 +517,14 @@ border: 10px;
   width: auto;
 }
 
-.postbutton button {
+.postbutton button  {
   margin-top: 5px;
   padding: 2px;
+}
+
+.postbutton button a, .menu a {
+  text-decoration:none;
+
 }
 
 .lessonsoverviews {
@@ -631,14 +636,4 @@ border: 10px;
 
 #thread_comments {
   padding: 0 0 0 125px;
-}
-
-<<<<<<< HEAD
-.materials {
-  height: 100px;
-=======
-
-#threadText p {
-  width: 900px;
->>>>>>> e518ebf7931e3e6215e88e19343c7f6262efa4a3
 }
