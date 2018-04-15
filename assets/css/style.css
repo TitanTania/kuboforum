@@ -567,24 +567,6 @@ border: 10px;
   }
 }
 
-/*.postbutton button {
-  display: flex;
-  flex-direction: column;
-  background-color: #216393;
-  color: white;
-  padding: 3px;
-  margin-top: 10px;
-  cursor: pointer;
-  width: 9%;
-  border: none;
-
-}*/
-
-/*.postbutton h2 a {
-  text-decoration: none;
-  text-align: center;
-  padding: 0px;
-}
 
 .addbutton {
   display: flex;
