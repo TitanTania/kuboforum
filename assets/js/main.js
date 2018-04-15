@@ -1,7 +1,7 @@
 
 
 
-UserManager.addUser(new User("jonas","mikkelsen","jonas","jonaskmik@hotmail.com","jonas123","dalumskolen"));
+UserManager.addUser(new User("jonas","mikkelsen","jonas","jonas@hotmail.com","jonas123","dalumskolen"));
 
 
 
