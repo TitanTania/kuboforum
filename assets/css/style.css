@@ -577,3 +577,18 @@ border: 10px;
   text-align: center;
   padding: 0px;
 }
+
+.addbutton {
+  display: flex;
+  flex-direction: column;
+  background-color: #216393;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 10%;
+  border: none;
+  text-decoration:none;
+  align-items: center;
+
+}
