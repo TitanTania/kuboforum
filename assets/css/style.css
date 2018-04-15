@@ -585,5 +585,21 @@ border: 10px;
   border: none;
   text-decoration:none;
   align-items: center;
+}
 
+#text {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 300px;
+}
+
+.postplace {
+  padding: 0 0 0 100px;
+}
+
+#thread {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
