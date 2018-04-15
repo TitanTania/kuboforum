@@ -635,5 +635,14 @@ border: 10px;
 
 
 #thread_comments {
-  padding: 0 0 0 125px;
+  background-color: #f1f1f2;
+  margin: 0 0 0 125px;
+  max-width: 800px;
+  padding: 0 0 0 10px;
+}
+
+#thread_comments b {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #216393;
 }
