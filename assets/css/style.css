@@ -646,3 +646,13 @@ border: 10px;
   text-decoration: underline;
   color: #216393;
 }
+
+.kuborobot img{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 300px;
+  height: auto;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding-right: 1000px;
+}
