@@ -530,6 +530,10 @@ border: 10px;
 
 }
 
+.materials {
+  height: 100px;
+}
+
 .lessonbox {
   position: relative;
   margin: 40px 0 0 130px;
@@ -619,6 +623,12 @@ border: 10px;
   padding: 0 0 0 100px;
 }
 
+<<<<<<< HEAD
 .materials {
   height: 100px;
+=======
+
+#threadText p {
+  width: 900px;
+>>>>>>> e518ebf7931e3e6215e88e19343c7f6262efa4a3
 }
