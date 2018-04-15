@@ -603,3 +603,13 @@ border: 10px;
   flex-direction: column;
   width: 300px;
 }
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 100px;
+}
+
+.commentsection textarea{
+  width: 200px;
+}
