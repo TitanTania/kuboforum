@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
 						<ul class="tagline_buttons">
 							<li class="comments"></li>
 							<li class="share">Share</li>
-							<li class="report">Report</li>
 						</ul>
 				</div>
 		</div>`;
