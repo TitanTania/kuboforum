@@ -157,7 +157,7 @@ a.active_bread {
 
 /*flex container starts*/
 
-.flex_container {
+.flex_ {
   display: flex;
   flex-direction: row;
 
@@ -351,10 +351,6 @@ li:hover .dropout-content {
   border: 1px solid white;
   display: flex;
   flex-direction: row;
-}
-
-h3.title {
-
 }
 
 
