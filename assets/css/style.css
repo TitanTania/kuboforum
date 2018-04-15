@@ -79,6 +79,7 @@ header
   text-decoration: none;
   color:  #044C7F;
   padding: 20px;
+
 }
 
 .nav a:hover {
@@ -561,18 +562,6 @@ border: 10px;
   display: inline-block;
 }
 
-
-/*Responsive*/
-@media screen and (max-width: 600px) {
-  .nav a {
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-}
-
-
 .addbutton {
   display: flex;
   flex-direction: column;
@@ -613,3 +602,7 @@ border: 10px;
 .commentsection textarea{
   width: 200px;
 }
+
+
+/*Responsive*/
+@media screen and (max-width: 600px) {
