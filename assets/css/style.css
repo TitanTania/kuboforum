@@ -508,6 +508,10 @@ border: 10px;
   width: auto;
 }
 
+.postbutton button {
+  margin-top: 5px;
+  padding: 2px;
+}
 
 .lessonsoverviews {
   display: flex;
@@ -547,6 +551,10 @@ border: 10px;
   color: #216393;
 }
 
+.lesson-icons {
+  height: 45px;
+  display: inline-block;
+}
 
 
 /*Responsive*/
@@ -576,4 +584,19 @@ border: 10px;
   text-decoration: none;
   text-align: center;
   padding: 0px;
-}*/
+}
+
+.addbutton {
+  display: flex;
+  flex-direction: column;
+  background-color: #216393;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 10%;
+  border: none;
+  text-decoration:none;
+  align-items: center;
+
+}
