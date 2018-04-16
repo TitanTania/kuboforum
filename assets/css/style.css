@@ -586,6 +586,7 @@ border: 10px;
 @media screen and (max-width: 600px) {
   .nav ul {
     flex-direction: column;
+<<<<<<< HEAD
     width: 100px;
     padding: 0;
     margin: 0;
@@ -597,6 +598,10 @@ border: 10px;
     background-color: #216393;
     padding: 5px 120px;
   
+=======
+    width: 100%;
+
+>>>>>>> 2024528d747f065a4f712be05d64e31662de9cbe
 
   }
 
@@ -659,12 +664,16 @@ border: 10px;
 
     }
 
-     .lessonbox {
+     .lessonsoverviews {
       display: flex;
       flex-direction: column;
       margin: 0;
       padding: 10px;
 
+    }
+
+    .lessonbox {
+      width: 70px;
 
     }
 
@@ -680,6 +689,11 @@ border: 10px;
     .flex_container_contents {
       margin: 0;
       padding: 0;
+    }
+
+    .flex_container {
+      display: flex;
+      flex-direction: column;
     }
 
 }
