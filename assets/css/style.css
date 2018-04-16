@@ -719,5 +719,10 @@ border: 10px;
 
     #text {
       width: 90%;
+      border: 1px solid black;
+    }
+
+    #thread {
+      border: 1px solid black;
     }
 }
