@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
 					<h3 class="title"><a href="thread.html#`+i+`">` + thread.name + `</a></h3>
 						<p class="tagline">Submitted `+ new Date(thread.date).toLocaleDateString() +`</p>
 						<ul class="tagline_buttons">
-							<li class="comments"></li>
-							<li class="share">Share</li>
 						</ul>
 				</div>
 		</div>`;

@@ -2,7 +2,7 @@
 function Thread(name, text) {
 	this.name = name;
 	this.text = text;
-	this.score = 0;
+	this.vote = 0;
 	this.creator = user.firstname;
 	this.date = new Date();
 }
