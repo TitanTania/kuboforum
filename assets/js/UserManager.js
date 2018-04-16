@@ -1,6 +1,6 @@
 UserManager = {
 
-	users: [], 
+	users: [],
 
 	addUser:
 	function (user){
@@ -15,6 +15,7 @@ UserManager = {
 			user = this.users[i];
 			if(user.email == email && user.password == password){
 				localStorage.setItem("user", JSON.stringify(user));
+				return user;
 			}
 
 		}
@@ -45,6 +46,7 @@ UserManager = {
 		var email = document.getElementById(emailId);
 		var password = document.getElementById(passwordId);
 		if(this.login(email.value, password.value)){
+			location.reload();
 		}
 		else{
 			email.style.borderColor = "#f00";
