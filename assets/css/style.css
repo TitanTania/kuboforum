@@ -22,11 +22,7 @@ header {
   align-items: center;
   height: 70px;
 }
-
-
-
 /*User_icon picture*/
-
 
 form {
   display: flex;
@@ -91,16 +87,12 @@ a.active {
   text-transform: uppercase;
 }
 
-
-
 .menu {
   width: auto;
   height: 55px;
   background-color: #044C7F;
   display: flex;
   padding: 0 0 0 93px;
-
-
 }
 
 .menu h2 {
@@ -119,10 +111,6 @@ h3 {
 
 .contents a {
   text-decoration: none;
-}
-
-.contents {
-
 }
 
 ul.breadcrumbs {
@@ -146,15 +134,11 @@ ul.breadcrumbs li+li:before {
 a.active_bread {
   text-decoration: underline;
 }
-
-
-
 /*flex container starts*/
 
 .flex_container {
   display: flex;
   flex-direction: row;
-
 }
 
 .flex_container > div {
@@ -166,7 +150,6 @@ a.active_bread {
 .flex_container_contents {
   display: flex;
   flex-direction: row;
-
 }
 
 .flex_container_contents > div {
@@ -599,6 +582,10 @@ border: 10px;
     width: 100%;
 
 
+  }
+
+  a.active {
+    color: #044C7F;
   }
 
   .nav a {
