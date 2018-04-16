@@ -546,7 +546,8 @@ border: 10px;
 .lesson_content {
   max-width: 800px;
   justify-content: center;
-  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .lessonbox {
