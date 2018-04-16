@@ -514,8 +514,8 @@ border: 10px;
 }
 
 .postbutton button  {
-  margin-top: 5px;
-  padding: 2px;
+  padding: 0;
+  margin: 20px 0 20px 100px;
 }
 
 .postbutton button a, .menu a {
