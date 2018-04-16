@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 	for (var i = 0; i < threads.length; i++) {
 		var thread = threads[i];
-		// Vi laver html delen for posten.
 
 		var threadHTML = `<div class="forum_post">
 			<div>

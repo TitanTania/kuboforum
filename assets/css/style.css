@@ -152,9 +152,6 @@ a.active_bread {
   flex-direction: row;
 }
 
-.flex_container_contents > div {
-}
-
 .flex_container_lessons {
   display: flex;
   flex-direction: column;
@@ -242,15 +239,11 @@ li:hover .dropout-content {
   margin: 7px;
 }
 
-
-
-
 .menubar {
   display: flex;
   flex-direction: row-reverse;
   position: fixed;
   right: 0;
-
 
 }
 
@@ -315,13 +308,7 @@ li:hover .dropout-content {
   color: #044C7F;
 }
 
-
 /*forum start*/
-
-.forum_container {
-
-}
-
 .forum_post {
   background-color: #F1F1F2;
   width: 100%;
@@ -329,7 +316,6 @@ li:hover .dropout-content {
   display: flex;
   flex-direction: row;
 }
-
 
 .forum_icon {
   padding-top: 25px;
@@ -364,7 +350,6 @@ li.comments {
   display: flex;
   flex-direction: row;
 }
-
 
 .top {
   background-color: #216393;
@@ -402,9 +387,6 @@ border: 10px;
   display: flex;
   flex-direction: column;
 }
-
-
-
 /*forum end*/
 
 .container {
@@ -442,7 +424,6 @@ border: 10px;
 
 .postbutton button a, .menu a {
   text-decoration:none;
-
 }
 
 .lessonsoverviews {
@@ -454,7 +435,6 @@ border: 10px;
   display: flex;
   justify-content: center;
   text-align: center;
-
 }
 
 .materials {
@@ -489,6 +469,7 @@ border: 10px;
   z-index: 2;
   width: 200px;
 }
+
 .lesson_text a {
   text-decoration: none;
   color: #216393;
@@ -540,7 +521,6 @@ border: 10px;
   width: 200px;
 }
 
-
 #thread_comments {
   background-color: #f1f1f2;
   margin: 0 0 0 125px;
@@ -572,7 +552,6 @@ border: 10px;
     width: 100px;
     padding: 0;
     margin: 0;
-
   }
 
   .nav li a {
@@ -580,8 +559,6 @@ border: 10px;
     background-color: #216393;
     padding: 5px 120px;
     width: 100%;
-
-
   }
 
   a.active {
@@ -624,8 +601,7 @@ border: 10px;
     margin: 0;
   }
 
-
-    .menu, .container, .question_container {
+  .menu, .container, .question_container {
       margin: 0;
       padding-left: 5px;
       max-width: 400px;
@@ -634,7 +610,6 @@ border: 10px;
     .container h1, .menu h2 {
       padding-left: 5px;
     }
-
 
     .question_container ul {
       margin: 0;
@@ -652,7 +627,6 @@ border: 10px;
       height: auto;
     }
 
-
     .categories-lesson {
       margin: 0;
       padding: 5px;
@@ -669,12 +643,10 @@ border: 10px;
       flex-direction: column;
       margin: 0;
       padding: 10px;
-
     }
 
     .lessonbox {
       width: 70px;
-
     }
 
     .menubar {
@@ -704,7 +676,6 @@ border: 10px;
     .addbutton {
       width: 200px;
       margin: 0;
-
     }
 
     h1 {

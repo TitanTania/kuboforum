@@ -1,21 +1,20 @@
 UserManager = {
 
-	users: [], //array - gemme user objekter
+	users: [], 
 
-	addUser: //push putter ekstra element til sidst i arrayet, fordi userne skal gemmes et sted - "falsk database"
+	addUser:
 	function (user){
 		this.users.push(user);
 	},
 
 	login:
-	function (email, password){ //argumenter (username, password)
+	function (email, password){
 		var user;
-		for (var i = 0; i < this.users.length; i++) { //for = loop - .lenght tæller elementer i array - fortæller hvor mange elementer der er
+		for (var i = 0; i < this.users.length; i++) {
 
 			user = this.users[i];
 			if(user.email == email && user.password == password){
-				localStorage.setItem("user", JSON.stringify(user)); //object om til string gemt i localStorage
-				return user; //når noget bliver returnet så dør funktionen
+				localStorage.setItem("user", JSON.stringify(user));
 			}
 
 		}
@@ -41,12 +40,11 @@ UserManager = {
 	},
 
 	loginByForm:
-	function (emailId, passwordId){ //fysiske id'er fra html
+	function (emailId, passwordId){
 		event.preventDefault();
 		var email = document.getElementById(emailId);
 		var password = document.getElementById(passwordId);
-		if(this.login(email.value, password.value)){ //if kører kun hvis den er true
-			location.reload(); //hvis login er succesful så reloader siden
+		if(this.login(email.value, password.value)){
 		}
 		else{
 			email.style.borderColor = "#f00";
