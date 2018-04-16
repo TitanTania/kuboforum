@@ -708,4 +708,12 @@ border: 10px;
 
     }
 
+    .postplace {
+      margin: 0;
+      padding: 0 0 0 5px;
+    }
+
+    #text {
+      width: 90%;
+    }
 }
