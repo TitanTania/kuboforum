@@ -722,4 +722,15 @@ border: 10px;
       flex-direction: column;
     }
 
+    .postbutton button {
+      margin: 55px;
+      width: 250px;
+    }
+
+    .addbutton {
+      width: 200px;
+      margin: 0;
+
+    }
+
 }
