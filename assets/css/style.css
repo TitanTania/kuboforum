@@ -540,7 +540,7 @@ border: 10px;
 }
 
 .lesson_content {
-  max-width: 800px;
+  max-width: 750px;
   justify-content: center;
   display: flex;
   flex-direction: column;
