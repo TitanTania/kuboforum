@@ -690,11 +690,13 @@ border: 10px;
 
     }
 
-    .lessonbox {
+     .lessonbox {
       display: flex;
       flex-direction: column;
       margin: 0;
-      padding-top: 10px;
+      padding: 10px;
+
+
     }
 
     .menubar {
@@ -704,6 +706,11 @@ border: 10px;
     iframe {
       max-width: 100%;
       height: auto:
+    }
+
+    .flex_container_contents {
+      margin: 0;
+      padding: 0;
     }
 
 }
