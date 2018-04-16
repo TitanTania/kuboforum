@@ -616,6 +616,14 @@ border: 10px;
     align-items: center;
   }
 
+  form {
+    padding-left: 50px;
+  }
+
+  nav {
+    padding-right: 60px;
+  }
+
   header img {
     display: none;
   }
