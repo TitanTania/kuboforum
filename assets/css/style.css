@@ -625,6 +625,10 @@ border: 10px;
     width: 200px;
   }
 
+  .login input{
+    margin: 0;
+  }
+
 
     .menu, .container, .question_container {
       margin: 0;
