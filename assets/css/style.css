@@ -586,7 +586,6 @@ border: 10px;
 @media screen and (max-width: 600px) {
   .nav ul {
     flex-direction: column;
-<<<<<<< HEAD
     width: 100px;
     padding: 0;
     margin: 0;
@@ -597,11 +596,8 @@ border: 10px;
     display: block;
     background-color: #216393;
     padding: 5px 120px;
-  
-=======
     width: 100%;
 
->>>>>>> 2024528d747f065a4f712be05d64e31662de9cbe
 
   }
 
