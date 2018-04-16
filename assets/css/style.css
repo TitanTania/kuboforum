@@ -368,20 +368,6 @@ li.comments {
   font-weight: bold;
 }
 
-li.share {
-  padding-right: 10px;
-  color: #216393;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-li.report {
-  padding-right: 10px;
-  color: red;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 .tagline_buttons {
   margin: 0;
   padding-right: 50px;
@@ -396,47 +382,6 @@ li.report {
   flex-direction: row;
 }
 
-.hot {
-  background-color: #216393;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: white;
-  font-weight: bold;
-  border-right: 1px solid;
-}
-
-.hot:hover {
-  background-color: #044C7F;
-}
-
-.new {
-  background-color: #216393;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: white;
-  font-weight: bold;
-  border-right: 1px solid;
-}
-
-.new:hover {
-  background-color: #044C7F;
-}
-
-.rising {
-  background-color: #216393;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: white;
-  font-weight: bold;
-  border-right: 1px solid;
-}
-
-.rising:hover {
-  background-color: #044C7F;
-}
 
 .top {
   background-color: #216393;
@@ -641,13 +586,38 @@ border: 10px;
 @media screen and (max-width: 600px) {
   .nav ul {
     flex-direction: column;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .nav li a {
+    display: block;
+    background-color: #216393;
+    padding: 5px 120px;
     width: 100%;
 
 
   }
 
+  .nav a {
+    color: white;
+      width: 100%;
+  }
+
+  .login {
+    display: flex;
+    padding: 150px 300px 0 0;
+  }
+
   header img {
     display: none;
+  }
+
+  header {
+    height: 200px;
+    width: 600px;
   }
 
 
