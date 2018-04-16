@@ -729,4 +729,13 @@ border: 10px;
     #thread {
       border: 1px solid black;
     }
+
+    .comment {
+      margin: 0;
+      padding-left: 25px;
+    }
+
+    #thread_comments {
+      margin: 0;
+    }
 }
