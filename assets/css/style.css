@@ -689,8 +689,9 @@ border: 10px;
       width: 150px;
     }
 
-    .kuborobot{
-      padding: 0;
+    .kuborobot img{
+      display: none;
+
     }
 
     .lessonbox {
