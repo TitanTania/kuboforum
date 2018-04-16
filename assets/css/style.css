@@ -157,7 +157,7 @@ a.active_bread {
 
 /*flex container starts*/
 
-.flex_ {
+.flex_container {
   display: flex;
   flex-direction: row;
 
