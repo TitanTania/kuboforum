@@ -610,20 +610,32 @@ border: 10px;
     display: flex;
     padding: 0;
   }
+
   header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
   }
 
   header img {
     display: none;
   }
 
+  form {
+    padding-left: 50px;
+  }
+
+  nav {
+    padding-right: 60px;
+  }
+
   header {
     height: 200px;
     width: 200px;
   }
+
+
 
   .login input{
     margin: 0;
