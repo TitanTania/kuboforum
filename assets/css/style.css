@@ -1,0 +1,741 @@
+body {
+background-color: white;
+font-family: 'Lato', sans-serif;
+margin: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+}
+
+button:hover {
+  color: #81A6BF;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+
+
+/*User_icon picture*/
+
+
+form {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.login input {
+  margin-right: 10px;
+}
+
+.user_icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+.kedu_logo img {
+  width: 110px;
+  margin-top: -6px;
+  margin-right: 150px;
+}
+
+.login {
+  margin-left: 150px;
+}
+
+.nav ul {
+  display: flex;
+  padding: 0;
+}
+
+
+.nav li {
+  text-align: center;
+  list-style: none;
+}
+
+.nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color:  #044C7F;
+  padding: 20px;
+}
+
+.nav a:hover {
+  color: #81A6BF;
+  text-decoration: underline;
+}
+
+a.active {
+  color: #81A6BF;
+}
+
+.username {
+  padding-right: 10px;
+  color: #044c7f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.menu {
+  width: auto;
+  height: 55px;
+  background-color: #044C7F;
+  display: flex;
+  padding: 0 0 0 93px;
+
+
+}
+
+.menu h2 {
+margin: 0;
+}
+
+h2 {
+  color: white;
+  padding: 10px;
+}
+
+h3 {
+  color: #216393;
+  text-decoration: none;
+}
+
+.contents a {
+  text-decoration: none;
+}
+
+.contents {
+
+}
+
+ul.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  list-style: none;
+}
+
+ul.breadcrumbs li+li:before {
+  padding: 10px;
+  content: "/\00a0";
+  color: white;
+}
+
+.breadcrumbs a {
+  color: white;
+  text-decoration: none;
+}
+
+a.active_bread {
+  text-decoration: underline;
+}
+
+
+
+/*flex container starts*/
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flex_container > div {
+  margin: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.flex_container_contents {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flex_container_contents > div {
+}
+
+.flex_container_lessons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.flex_container_lessons > div {
+  justify-content: center;
+}
+/*flex container ends*/
+
+
+/*lessonplan*/
+
+.categories-lesson {
+  width: 200px;
+}
+
+.categories-lesson {
+  padding: 20px 0 0 100px;
+}
+.categories-lesson a {
+  background-color: #216393;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.categories-lesson li {
+  list-style-type: none;
+  position: relative;
+}
+
+.categories-lesson a:hover {
+  background-color: #044c7f;
+}
+
+.dropout {
+  position: relative;
+}
+
+.dropout-content {
+  position: absolute;
+  display: none;
+  left: 100%;
+  top: 0;
+  margin: 0;
+}
+
+li .dropout-content {
+  position: absolute;
+}
+
+.dropout-content li {
+  border-bottom: 1px solid white;
+}
+
+.dropout-content li:last-child {
+  border: 0;
+}
+
+li:hover .dropout-content {
+  display: block;
+  padding: 0px;
+  width: 200px;
+}
+
+.newssite {
+  display: flex;
+
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 0 0 100px;
+}
+
+.news p {
+  line-height: normal;
+  margin: 7px;
+}
+
+
+
+
+.menubar {
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  right: 0;
+
+
+}
+
+.menubar ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  width: 400px;
+  height: inherit;
+  background-color: #f1f1f1;
+
+}
+
+.menubar li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 8px 16px;
+  text-align: center;
+  border-top: 1px solid #555;
+}
+
+.menubar h3 a {
+  color: #044C7F;
+}
+
+.menubar li {
+  text-align: center;
+}
+
+.menubar li a:hover {
+  background-color: #555;
+  color: white;
+
+}
+
+.question_container li {
+  max-width: 1000px;
+  list-style-type: none;
+}
+
+.question_container {
+  margin: 0 0 0 60px;
+}
+
+.your_question button {
+  max-width: 300px;
+  margin: 0 0 20px 0;
+}
+
+.your_question a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.your_question {
+  text-align: center;
+}
+
+.your_question h2 {
+  color: #044C7F;
+}
+
+
+/*forum start*/
+
+.forum_container {
+
+}
+
+.forum_post {
+  background-color: #F1F1F2;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.forum_icon {
+  padding-top: 25px;
+  padding-right: 10px;
+}
+
+ul.tagline_buttons {
+list-style: none;
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+}
+
+li.comments {
+  padding-right: 10px;
+  color: #216393;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tagline_buttons {
+  margin: 0;
+  padding-right: 50px;
+}
+
+.tagline {
+  margin: 0;
+}
+
+.sort {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.top {
+  background-color: #216393;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.top:hover {
+  background-color: #044C7F;
+}
+
+.vote_button {
+height: 45px;
+display: flex;
+flex-direction: column;
+margin: 10px;
+border: 10px;
+}
+
+.vote_button:hover {
+  background-color: #C8C8C8;
+  margin: 10px;
+  box-shadow: 0 0 0 10px #C8C8C8;
+}
+
+.vote_button:active {
+  background-color: #216393;
+  box-shadow: 0 0 0 10px #216393;
+}
+
+.post_content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/*forum end*/
+
+.container {
+  display: flex;
+  width: auto;
+  background-color: #f1f1f2;
+  padding: 0 0 0 100px;
+  color: #545454;
+}
+
+.your_question button,
+.login button, .postbutton button, .addcommentbutton {
+  background-color: #216393;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 50%;
+  border: none;
+}
+
+.your_question button:hover,
+ .login button:hover, .postbutton button:hover, .addcommentbutton:hover{
+  background-color: #044c7f;
+}
+
+.login button, .postbutton button, .addcommentbutton {
+  padding: 10px 15px;
+  width: auto;
+}
+
+.postbutton button  {
+  padding: 0;
+  margin: 20px 0 20px 100px;
+}
+
+.postbutton button a, .menu a {
+  text-decoration:none;
+
+}
+
+.lessonsoverviews {
+  display: flex;
+  flex-direction: row;
+}
+
+.lessonbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.materials {
+  height: 100px;
+}
+
+.lesson_content {
+  max-width: 700px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.lessonbox {
+  position: relative;
+  margin: 40px 0 0 130px;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+.lessonbox img {
+  width: 300px;
+  height: auto;
+}
+
+.lesson_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 200px;
+}
+.lesson_text a {
+  text-decoration: none;
+  color: #216393;
+}
+
+.lesson-icons {
+  height: 45px;
+  display: inline-block;
+}
+
+.addbutton {
+  display: flex;
+  flex-direction: column;
+  background-color: #216393;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 10%;
+  border: none;
+  text-decoration:none;
+  align-items: center;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 300px;
+}
+
+.postplace {
+  padding: 0 0 0 100px;
+}
+
+#thread {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 100px;
+}
+
+.commentsection textarea{
+  width: 200px;
+}
+
+
+#thread_comments {
+  background-color: #f1f1f2;
+  margin: 0 0 0 125px;
+  max-width: 800px;
+  padding: 0 0 0 10px;
+}
+
+#thread_comments b {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #216393;
+}
+
+.kuborobot img{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 300px;
+  height: auto;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding-right: 1000px;
+}
+
+
+/*Responsive - HAS TO BE LAST*/
+@media screen and (max-width: 600px) {
+  .nav ul {
+    flex-direction: column;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .nav li a {
+    display: block;
+    background-color: #216393;
+    padding: 5px 120px;
+    width: 100%;
+
+
+  }
+
+  .nav a {
+    color: white;
+      width: 100%;
+  }
+
+  .login {
+    display: flex;
+    padding: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header {
+    height: 200px;
+    width: 200px;
+  }
+
+  .login input{
+    margin: 0;
+  }
+
+
+    .menu, .container, .question_container {
+      margin: 0;
+      padding-left: 5px;
+      max-width: 400px;
+    }
+
+    .container h1, .menu h2 {
+      padding-left: 5px;
+    }
+
+
+    .question_container ul {
+      margin: 0;
+      padding: 5px;
+    }
+
+    .news {
+      margin: 0;
+      padding: 5px;
+      width: 375px;
+    }
+
+    .news img {
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    .categories-lesson {
+      margin: 0;
+      padding: 5px;
+      width: 150px;
+    }
+
+    .kuborobot img{
+      display: none;
+
+    }
+
+     .lessonsoverviews {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 10px;
+
+    }
+
+    .lessonbox {
+      width: 70px;
+
+    }
+
+    .menubar {
+    display: none;
+    }
+
+    iframe {
+      max-width: 100%;
+      height: auto:
+    }
+
+    .flex_container_contents {
+      margin: 0;
+      padding: 0;
+    }
+
+    .flex_container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .postbutton button {
+      margin: 55px;
+      width: 250px;
+    }
+
+    .addbutton {
+      width: 200px;
+      margin: 0;
+
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .postplace {
+      margin: 0;
+      padding: 0 0 0 5px;
+    }
+
+    #text {
+      width: 90%;
+      border: 1px solid black;
+    }
+
+    #thread {
+      border: 1px solid black;
+    }
+
+    .comment {
+      margin: 0;
+      padding-left: 25px;
+    }
+
+    #thread_comments {
+      margin: 0;
+    }
+}
