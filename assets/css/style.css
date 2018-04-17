@@ -403,7 +403,7 @@ border: 10px;
 }
 
 .your_question button,
-.login button, .postbutton button, .addcommentbutton {
+.login button, input.postbutton, .addcommentbutton {
   background-color: #216393;
   color: white;
   padding: 10px 24px;
@@ -413,21 +413,30 @@ border: 10px;
 }
 
 .your_question button:hover,
- .login button:hover, .postbutton button:hover, .addcommentbutton:hover{
+ .login button:hover, input.postbutton:hover, .addcommentbutton:hover{
   background-color: #044c7f;
 }
 
-.login button, .postbutton button, .addcommentbutton {
+
+.login button, input.postbutton, .addcommentbutton {
   padding: 10px 15px;
   width: auto;
 }
 
-.postbutton button  {
+input.postbutton {
+  padding: 25px 30px;
+}
+
+input.postbutton {
+font-size: 20px;
+}
+
+.postbutton {
   padding: 0;
   margin: 20px 0 20px 100px;
 }
 
-.postbutton button a, .menu a {
+input.postbutton a, .menu a {
   text-decoration:none;
 }
 
@@ -547,6 +556,10 @@ border: 10px;
   -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     padding-right: 1000px;
+}
+
+iframe {
+  width: 100%;
 }
 
 
@@ -673,7 +686,7 @@ border: 10px;
       flex-direction: column;
     }
 
-    .postbutton button {
+    .postbutton {
       margin: 55px;
       width: 250px;
     }
