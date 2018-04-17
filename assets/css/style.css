@@ -171,6 +171,11 @@ a.active_bread {
   width: 200px;
 }
 
+.categories-lesson ol {
+  margin: 0;
+  padding: 0;
+}
+
 .categories-lesson {
   padding: 20px 0 0 100px;
 }
