@@ -294,6 +294,10 @@ li:hover .dropout-content {
   margin: 0 0 0 60px;
 }
 
+.question_container h3 {
+  padding-left: 40px;
+}
+
 .your_question button {
   max-width: 300px;
 }
