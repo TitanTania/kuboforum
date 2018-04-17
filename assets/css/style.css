@@ -545,6 +545,10 @@ input.postbutton a, .menu a {
     padding-right: 1000px;
 }
 
+iframe {
+  width: 100%;
+}
+
 
 /*Responsive - HAS TO BE LAST*/
 @media screen and (max-width: 600px) {
