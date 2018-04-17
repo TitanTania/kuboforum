@@ -417,11 +417,24 @@ border: 10px;
   background-color: #044c7f;
 }
 
+
 .login button, input.postbutton, .addcommentbutton {
   padding: 10px 15px;
   width: auto;
 }
 
+input.postbutton {
+  padding: 25px 30px;
+}
+
+input.postbutton {
+font-size: 20px;
+}
+
+.postbutton {
+  padding: 0;
+  margin: 20px 0 20px 100px;
+}
 
 input.postbutton a, .menu a {
   text-decoration:none;
